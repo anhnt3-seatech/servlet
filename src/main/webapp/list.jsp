@@ -4,7 +4,8 @@
 <head><title>Items</title></head>
 <body>
   <h1>Items</h1>
-  <p><a href="items?action=create">Create new</a></p>
+  <p><a href="items?action=create" id="addItemBtn">Create new</a></p>
+  
   <table border="1" cellpadding="6">
     <tr><th>ID</th><th>Name</th><th>Description</th><th>Actions</th></tr>
     <%

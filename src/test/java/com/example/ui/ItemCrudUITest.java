@@ -26,8 +26,7 @@ public class ItemCrudUITest {
         opts.addArguments("--disable-dev-shm-usage");
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver(opts);
-//        wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
     }
 
     @AfterEach
