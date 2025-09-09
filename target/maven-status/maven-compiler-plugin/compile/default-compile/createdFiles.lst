@@ -1,0 +1,3 @@
+com\example\model\Item.class
+com\example\dao\ItemDAO.class
+com\example\servlet\ItemServlet.class

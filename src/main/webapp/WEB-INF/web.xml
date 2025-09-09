@@ -1,0 +1,13 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+  <servlet>
+    <servlet-name>ItemServlet</servlet-name>
+    <servlet-class>com.example.servlet.ItemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ItemServlet</servlet-name>
+    <url-pattern>/items</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>items</welcome-file>
+  </welcome-file-list>
+</web-app>
