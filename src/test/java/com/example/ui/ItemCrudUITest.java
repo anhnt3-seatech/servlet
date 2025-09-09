@@ -48,7 +48,7 @@ public class ItemCrudUITest {
 
         // verify created
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//td[text()='MyItem']")));
-        assertTrue(driver.getPageSource().contains("MyItem1"));
+        assertTrue(driver.getPageSource().contains("MyItem"));
 
         // --- EDIT ---
         driver.findElement(By.xpath("//tr[td/text()='MyItem']//a[text()='Edit']")).click();
